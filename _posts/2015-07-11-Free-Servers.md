@@ -5,15 +5,17 @@ category: IT
 tags: [ 무료, free, 서버, 클라우드, IaaS, VPS]
 #thumbnailImage: WICC_bannervideoimage.png
 ---
-<center>![AWS banner]({{ site.baseurl }}/images/WICC_bannervideoimage.png)</center>
+![AWS banner]({{ site.baseurl }}/images/WICC_bannervideoimage.png)
+
 IT 관련 공부를 하다보면 테스트용 서버가 필요해지는데, 무료로 장기간 혹은 단기간 사용할 수 있고 OS 레벨에서 풀 컨트롤이 가능한 서버들(IaaS,VPS)들을 정리해 보았습니다.
 
-* [6 개월 이상](./#6_개월_이상)
-* [2 개월 이상](./#2_개월_이상)
-* [1 개월 이상](./#1_개월_이상)
+* [6 개월 이상](./#section)
+* [2 개월 이상](./#section-1)
+* [1 개월 이상](./#section-2)
 
 
 ## 6 개월 이상
+
 ### <img style="display:inline;" src="http://aws.amazon.com/favicon.ico"> [Amazon Web Service - AWS](http://aws.amazon.com/ko/free/)
   * 12 개월간 
   * t2.micro 인트턴스<span style="color:red">만 가능</span> 월 750시간. Window 가능 
@@ -38,6 +40,7 @@ IT 관련 공부를 하다보면 테스트용 서버가 필요해지는데, 무�
   * 1GB 1CPU 6 개월간 무료 ( Window Hyper-V, 네트웤이 느림 5Mbps ). 한국에서 안될 수도...
 
 ## 2 개월 이상
+
 ### <img style="display:inline;" src="https://console.developers.google.com/favicon.ico">[Google Cloud Platform](https://console.developers.google.com/freetrial?hl=ko)
   * 60일간 300$, 대충 한달에 CPU 6~7 개 정도를 쓸 수 있는 양
 
@@ -60,6 +63,7 @@ IT 관련 공부를 하다보면 테스트용 서버가 필요해지는데, 무�
   | 4GB | 2 | 90GB SSD | 4TB | $32 |
 
 ## 1 개월 이상
+
 ### [Microsoft Azure](https://azure.microsoft.com/ko-kr/pricing/free-trial/)
   * 1 개월 150$
 
