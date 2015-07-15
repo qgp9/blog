@@ -1,0 +1,28 @@
+<p><img src="{{ site.baseurl }}/icon/logo.jpg" width="50" height="50" style="margin-left:5px;margin-right:10px;"> QGP@SKEPTI.ES </p>
+<p><a href="http://qgp2014.blog.me" target="_blank" > <img src="{{ site.baseurl }}/icon/naver-blog.png"> qgp2014.blog.me </a></p>
+<p><a href="https://plus.google.com/105532022585640662526" target="_blank" > <img src="{{ site.baseurl }}/icon/google.png"> Google+ </a></p>
+<p>
+<a href="{{ site.baseurl }}/rss.xml"><img src="{{ site.baseurl }}/icon/rss.png"> RSS</a>
+</p>
+{% if site.twitterid != emtpy %}
+<p><a href="https://twitter.com/{{ site.twitterid }}" class="twitter-follow-button" data-show-screen-name="false" data-show-count="true" data-dnt="true" data-size="large">Follow @{{ site.twitterid }}</a></p>
+{% endif %}
+
+{% if page.facebook_post %}
+<h3 class="secton-header">FACEBOOK</h3>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.0";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-post" data-href="{{page.facebook_post}}&amp;pnref=story" data-width="200"></div>
+{% endif %}
+
+<h3> Recent Comments </h3>
+<div id="RecentComments" class="dsq-widget">
+  <script type="text/javascript" src="http://qgp9.disqus.com/recent_comments_widget.js?num_items=5&hide_mods=0&hide_avatars=0&avatar_size=32&excerpt_length=30"></script>
+</div>
+

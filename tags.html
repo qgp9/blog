@@ -1,0 +1,32 @@
+---
+title: Tags
+permalink: "tags/index.html"
+---
+<h1> Tags </h1>
+<div class="panel panel-default">
+  <div class="panel-body">
+    {% for tag in site.tags %} 
+    <a  style="white-space:nowrap;margin:10px;width:200px;" href="#{{ tag[0] }}-ref">{{tag[0] | join: "/"}} <span class="badge">{{tag[1].size}}</span></a></span>
+    {% endfor %}
+  </div>
+</div>
+
+
+
+{% for tag in site.tags %} 
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title" id="{{ tag[0] }}-ref">{{ tag[0] | join: "/" }}</h2>
+  </div>
+  <div class="panel-body">
+    <ul>
+      {% for post in tag[1] %}
+      <p>
+      <a href="{{ post.url | prepend:site.baseurl}}" class="post-title-archive">{{ post.title }}</a>
+      <small class="text-muted">{{ post.date | date_to_string }}</small>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+{% endfor %}
+
