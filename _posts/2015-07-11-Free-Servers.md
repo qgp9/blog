@@ -1,11 +1,20 @@
 ---
 title: 무료로 사용할 수 있는 서버 ( IaaS, VPS )
 date: 2015-07-11 18:37:30
+modified-date: 2015-07-17 18:37:30
 category: IT
 tags: [ 무료, free, 서버, 클라우드, IaaS, VPS]
 #thumbnailImage: WICC_bannervideoimage.png
 ---
 ![AWS banner]({{ site.baseurl }}/images/WICC_bannervideoimage.png)
+
+---
+
+* Update
+  * 2015-07-17 ConoHa.jp 추가
+
+---
+
 
 IT 관련 공부를 하다보면 테스트용 서버가 필요해지는데, 무료로 장기간 혹은 단기간 사용할 수 있고 OS 레벨에서 풀 컨트롤이 가능한 서버들(IaaS,VPS)들을 정리해 보았습니다.
 
@@ -66,6 +75,17 @@ IT 관련 공부를 하다보면 테스트용 서버가 필요해지는데, 무�
 
 ### [Microsoft Azure](https://azure.microsoft.com/ko-kr/pricing/free-trial/)
   * 1 개월 150$
+
+### <img style="display:inline;" src="https://www.conoha.jp/common/icon/favicon.ico">[ConoHa.jp](https://www.conoha.jp/referral/?token=8YR8K76neYZGuUCYTO9T9y096zRrBvaNZi0Mscw7fcWqJMFZ5zM-NCH)
+  * 리퍼럴 링크로 가입시 1000엔 지급  ( 리퍼럴 링크 : [http://j.mp/conoha2015](http://j.mp/conoha2015) )
+  * 일본 소재 회사. 데이터 전송 무제한이 특징, 
+  * 월단위/시간단위 과금
+
+  | RAM | CPU | Disk | Bandwidth | per month |
+  |-----|-----|------|-----------|-|
+  | 1GB | 2 | 50GB SSD |  | 900엔 ( 8300원 / $7.3 ) |
+  | 2GB | 3 | 50GB SSD |  | 1750엔 |
+  | 4GB | 4 | 40GB SSD |  | 3420엔 |
 
 
 ## 결론
