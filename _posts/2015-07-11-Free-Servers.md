@@ -1,11 +1,18 @@
 ---
-title: 무료로 사용할 수 있는 서버 ( IaaS, VPS )
-date: 2015-07-11 18:37:30
-modified-date: 2015-07-17 18:37:30
+title: "무료로 사용할 수 있는 서버 ( IaaS, VPS )"
+date: {}
+"modified-date": {}
 category: IT
-tags: [ 무료, free, 서버, 클라우드, IaaS, VPS]
-#thumbnailImage: WICC_bannervideoimage.png
+tags: 
+  - 무료
+  - free
+  - 서버
+  - 클라우드
+  - IaaS
+  - VPS
+published: true
 ---
+
 ![AWS banner]({{ site.baseurl }}/images/WICC_bannervideoimage.png)
 
 ---
@@ -34,8 +41,8 @@ IT 관련 공부를 하다보면 테스트용 서버가 필요해지는데, 무�
 ### <img style="display:inline;" src="https://www.digitalocean.com/favicon.ico">[Digital Ocean ( DO )](https://www.digitalocean.com/?refcode=39d8cf51683d)
   * 가입시 10$ 제공, 신용카드 없이 페이팔만으로 가능
   * 필리핀 서버 가능 ( 미국.유럽.아시아 )
-  * [깃헙 학생팩](https://education.github.com/pack) 에서 학생인증 받으면 100$ 쿠폰을 줍니다. 
-    * 소멸기간 없음 ( 10개월간 1GB VPS 사용가능 ), DO 에 먼저 가입한 후에도 쿠폰을 쓸 수 있습니다.
+  * [깃헙 학생팩](https://education.github.com/pack) 에서 학생인증 받으면 50$ 쿠폰을 줍니다. 
+    * 소멸기간 없음 ( 5개월간 1GB VPS 사용가능 ), DO 에 먼저 가입한 후에도 쿠폰을 쓸 수 있습니다.
 
 
   | RAM | CPU | Disk | Bandwidth | per month |
