@@ -1,6 +1,5 @@
 ---
 title: "무료로 사용할 수 있는 서버 ( IaaS, VPS )"
-date: {}
 "modified-date": {}
 category: IT
 tags: 
@@ -19,6 +18,7 @@ published: true
 
 * Update
   * 2015-07-17 ConoHa.jp 추가
+  * 2016-02-15 Digital Ocean 쿠폰 변경 $100 -> $50
 
 ---
 
