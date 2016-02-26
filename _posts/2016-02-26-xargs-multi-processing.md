@@ -29,7 +29,7 @@ ENDL
 그리고 `xargs` 에 옵션 `-P4` 를 주어서 4개의 멀티 프로세싱 큐를 만들어줍니다.
 
 ```
-cat input.txt | xargs -I% -P4 wget -s "%" 
+cat input.txt | xargs -I% -P4 wget  "%" 
 ```
 
 짜잔~ , 이제 `input.txt` 의 URL 들은 동시에 4개씩 다운받아집니다. 아마 원래의 순서와 출력 순서가 봐뀌어서 출력된 것이 보일겁니다.
