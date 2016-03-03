@@ -3,7 +3,7 @@ title: "VPS 소개 - vultr, conoha 그리고 기부 아이디어"
 category: "IT"
 tags: [IT, VPS, vultr, conoha, donation]
 ---
-
+원문 ( http://qgp9.github.io/blog/2016/03/03/vps-vultr-cohoha-donation )
 
 # 본격적인 소개!!
 
@@ -12,6 +12,9 @@ tags: [IT, VPS, vultr, conoha, donation]
 미국엔 여러 좋은 VPS 서비스가 많지만 네트워크 반응 속도가 신통치 않다는 것이 문제겠죠.
 
 그런 면에서 일본(도쿄)의 Vultr 이나 Conoha 는 속도/가격면에서 모두 훌륭하고 WAS 처럼 전문적이지는 않지만 나름의 클라우드 역할도 할 수 있다는 장점이 있습니다. ( VPS 의 생성이 즉각적이고 내부 아이피를 이용해 VPS 끼리 통신할 수 있습니다. API 는, 당장 기억이 나지 않는 군요 )
+![vultr](http://i.imgur.com/cNTgHB5.png) ![conoha](http://i.imgur.com/jpy3XUi.png )
+
+* Conoha는.... 역시 일본...
 
 VPS 는 아시다시피 가상으로 서버 머신을 만들어서 제공하는 것이라서, 유저가 root 권한을 가지고 모든 것을 설정할 수 있다는 장점이 있습니다. 웹호스팅과는 달리 말하자면 뭐든지 할 수 있습니다.
 그래서 리눅스나 쉘 환경을 공부할때도 아주 유용하지요.
@@ -57,7 +60,9 @@ VPS 의 종류에는 크게, OpenVZ, XEN, KVM, VMWare 등이 있는데, 이중 O
 * Conoha : http://serverbear.com/benchmark/2016/01/29/4DnD0fEWrNTB8HOy
 * VULTR 은 768MB, Conoha는 1GB 서버입니다.
 
-|     | VULTR | Conoha |
+
+| | VULTR | Conoha |
+|-|-|-|
 | UnixBench( 1 CPU ) | 1534.8 | 1476.2 |
 | UnixBench( 전체 )  | 1525.8 | 2466.1 |
 | IO 연속 읽기(대략) | 264.4MB/s   | 613.7 MB/s |
@@ -86,6 +91,11 @@ VPS 의 종류에는 크게, OpenVZ, XEN, KVM, VMWare 등이 있는데, 이중 O
 ![conoha price](http://i.imgur.com/yaFDVpK.jpg)
 
 # 더 궁금한게 있으시면 답글 남겨주세요!!
+
+# 참고
+* 무료로 사용할 수 있는 서버 ( IaaS, VPS ) : http://qgp9.github.io/blog/2015/07/11/Free-Servers
+* 국내 클라우드 서버호스팅 비교(Virtual Private Server Review) : https://blog.lael.be/post/44
+  * 사실 이분 글이 진리입니다. 제 글 따위는 그냥 소개...
 
 # 추가 : 리터럴을 통한 기부에 대한 아이디어
 위 글을 쓰면서 든 생각이, 저에게 ( 사이트에 ) 기부를 원하실 경우(가 만~약~) 있다면 직접 기부하셔도 좋지만, VULTR 이나 Conoha 리퍼럴을 통해서 가입하면, 일석이조의 효과가 아닐까 하는 생각이 들었습니다. 쉘 포럼의 회원이라면 VPS 를 아주 유용하게 사용할 테니까요. VULTR이나 Conoha 는 결제를 해놓고, 필요할때 시간단위로 쓸 수 있어서 더욱 좋은 것 같습니다.
