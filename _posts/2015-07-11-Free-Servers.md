@@ -64,7 +64,7 @@ IT 관련 공부를 하다보면 테스트용 서버가 필요해지는데, 무�
 ### <img style="display:inline;" src="http://www.hpcloud.com/sites/all/themes/hpcloud/img/hp-logo-print.png"> [HP Cloud](http://www.hpcloud.com/cloud-credit)
   * 3개월간 300$ CPU 4개정도 사용할 수 있는 양 
 
-### <img style="display:inline;" src="https://www.vultr.com/favicon.ico"> [Vultr](https://www.vultr.com/freetrial/?ref=6839789)
+### <img style="display:inline;" src="https://www.vultr.com/favicon.ico"> [Vultr](https://www.vultr.com/freetrial/?ref=6920338-3B)
   * <span class="red">60 일간 50$ 무료제공</span>
   * 프로모션이 계속 있는 것이 아니라서, 제일 먼저 신청한다면 Vultr을 권합니다. 
   * 신용카드나 직불카드를 연결 필요
