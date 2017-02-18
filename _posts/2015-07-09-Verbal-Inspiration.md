@@ -34,5 +34,5 @@ tags: [ 성서 ]
 <br/><br/>
 <br/><br/>
 <center><span style="color:red;"> 주의 : 저는 성서를 잘 모릅니다. 눈에 보이는 대로 믿지 말아주세요.</span></center>
-  <center>![May the Holy Spirit be with you](http://i.imgur.com/0gQ8uuH.jpg)</center>
+![May the Holy Spirit be with you](http://i.imgur.com/0gQ8uuH.jpg)
   <center><span style="color:red;">성령이 당신과 함께하기를</span></center>
