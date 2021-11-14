@@ -12,7 +12,7 @@ facebook_post: "https://www.facebook.com/paul.jang.31542/posts/1454672874853426"
 
 
 * 창조과학회 길원평 교수 :
-   [http://www.creation.or.kr/library/itemview.asp?no=5669](http://www.creation.or.kr/library/itemview.asp?no=5669)
+   [http://www.creation.or.kr/library/itemview.asp?no=5669](https://web.archive.org/web/20170825234655/http://www.creation.or.kr/library/itemview.asp?no=5669)
 
 
 통계를 이해하지 못하는 모습을 볼 수 있습니다. ( 명색이 물리학과 교수인데...)
