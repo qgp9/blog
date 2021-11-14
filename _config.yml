@@ -1,6 +1,6 @@
 baseurl: "/blog" # The subpath of your site. Use "" if you're hosting a blog at the root level.
-url: "http://pgq.skepti.es" # the base hostname & protocol for your site
-title: "QGP@SKEPTI.ES"
+url: "http://qgp.github.io" # the base hostname & protocol for your site
+title: "QGP"
 
 # This is used by feed.xml. Uncomment if you want to use it.
 # description: "..."
@@ -8,7 +8,7 @@ title: "QGP@SKEPTI.ES"
 markdown: kramdown 
 kramdown:
     input: GFM
-gems:
+plugins:
   - jemoji
   - jekyll-redirect-from
   - jekyll-sitemap
@@ -19,6 +19,7 @@ exclude:
   - "CNAME"
   - "Gemfile"
   - "Gemfile.lock"
+  - vendor
 permalink: /:year/:month/:day/:title 
 defaults:
   -

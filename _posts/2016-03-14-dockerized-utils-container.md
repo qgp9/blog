@@ -31,7 +31,7 @@ IMAGENAME=qgp9_utils
 ## Orignal script file if this is symbolic link
 oScript=$( echo $BASH_SOURC | perl -MCwd+abs_path -nlE'$_=abs_path$n while $n=readlink $_;say abs_path $_' )
 ## Get Date of qgp9_utils images
-imageDateForm=$(docker inspect -f '{{.Created}}' $IMAGENAME)
+imageDateForm=$(docker inspect -f '\{\{.Created}}' $IMAGENAME)
 export imageDate=$( test -n "$imageDateForm" && date -d "$imageDateForm" +%s )
 export scriptDate=$(date -r "$oScript" +%s);
 if perl -e'$i=$ENV{imageDate}||0;$f=$ENV{scriptDate}||0;exit ($i<$f?0:1)' ;then
