@@ -76,7 +76,7 @@ VPS 의 종류에는 크게, OpenVZ, XEN, KVM, VMWare 등이 있는데, 이중 O
 
 ### VULTR 가격표, 쿠폰, 리퍼럴
 * VULTR 은 아래 링크를 통해 가입시에 20$를 제공합니다.
-  * [http://www.vultr.com/?ref=6920338-3B](http://www.vultr.com/?ref=6920338-3B)
+  * [http://www.vultr.com/?ref=8968322-8H](http://www.vultr.com/?ref=8968322-8H)
 * 실제 지불은 페이팔로 할 수 있지만 신용카드나 직불카드를 등록해야합니다.
 * 리퍼럴 링크(추천인제도)로 가입할 경우 가입자가 첫 $10를 결제할때 추천인에게 $20를 줍니다.
 
